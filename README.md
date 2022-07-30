@@ -24,12 +24,6 @@ void loop(){
 ### install packages:
 ```
 sudo apt-get install ros-noetic-catkin
-mkdir -p ~/catkin_workspace/src
-cd ~/catkin_workspace/
-catkin_make
-cd ~/catkin_ws/src
-git clone https://github.com/smart-methods/arduino_robot_arm.git 
-cd ~/catkin_workspace
 ```
 ```
 rosdep install --from-paths src --ignore-src -r -y
@@ -43,3 +37,8 @@ $ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 
 ## Install Arduino on ROS:
 1- Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software , then unzipping the folder, to install run $ sudo ./install.sh .
+2- chech Ariduno Bord by run Blink Example, if there is a problem in the port, try this commend: 
+```
+sudo chmod a+rw /dev/ttyACM0
+```
+
