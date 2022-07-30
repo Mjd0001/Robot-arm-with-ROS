@@ -37,6 +37,7 @@ $ sudo apt-get install ros-noetic-ros-controllers ros-noetic-ros-control
 
 ## Install Arduino on ROS:
 1- Install Arduino IDE in Ubuntu https://www.arduino.cc/en/software , then unzipping the folder, to install run $ sudo ./install.sh .
+
 2- chech Ariduno Bord by run Blink Example, if there is a problem in the port, try this commend: 
 ```
 sudo chmod a+rw /dev/ttyACM0
