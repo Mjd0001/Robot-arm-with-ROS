@@ -81,3 +81,5 @@ Controlling the robot arm by Moveit
 ```
 $ roslaunch moveit_pkg demo.launch
 ```
+
+Refrence: https://github.com/smart-methods/arduino_robot_arm.git
