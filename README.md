@@ -81,5 +81,6 @@ Controlling the robot arm by Moveit
 ```
 $ roslaunch moveit_pkg demo.launch
 ```
+<img width="806" alt="image" src="https://user-images.githubusercontent.com/105239889/182012548-826938a9-c8ce-4f62-b0c4-4f3059db292a.png">
 
 Refrence: https://github.com/smart-methods/arduino_robot_arm.git
